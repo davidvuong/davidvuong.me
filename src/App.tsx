@@ -1,5 +1,3 @@
-import React from 'react';
-import './App.css';
 import BannerVideo from './assets/videos/banner-motion-bg.mp4';
 import { GitHubSvgIcon } from './components/images/github-logo';
 import { LinkedInSvgIcon } from './components/images/linkedin-logo';
