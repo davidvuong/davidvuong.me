@@ -1,4 +1,4 @@
-import BannerVideo from './assets/videos/banner-motion-bg.mp4';
+import BannerVideo from './assets/videos/banner-motion-bg-3.mp4';
 import { GitHubSvgIcon } from './components/images/github-logo';
 import { LinkedInSvgIcon } from './components/images/linkedin-logo';
 import { TwitterSvgIcon } from './components/images/twitter-logo';
@@ -7,7 +7,7 @@ export const App = () => (
   <main>
     <section className="relative h-screen">
       <div className="block absolute inset-y-0 h-full w-full">
-        <div className="opacity-80 bg-black min-w-full min-h-full absolute top-0 left-0"></div>
+        <div className="opacity-60 bg-black min-w-full min-h-full absolute top-0 left-0"></div>
         <video autoPlay loop muted className="w-full h-full object-cover">
           <source src={BannerVideo} type="video/mp4"></source>
         </video>
@@ -20,7 +20,7 @@ export const App = () => (
               I'm David. It's nice to meet you.
             </h1>
             <p className="mt-2 max-w-lg mx-auto text-medium text-gray-300 sm:text-lg md:mt-4 md:text-xl lg:max-w-3/4">
-              degen, defi, inventor, blockchain engineer
+              degen, defi, inventor, blockchain engineer.
             </p>
             <div className="mt-8 max-w-sm mx-auto flex space-x-6 items-center content-center justify-center">
               <a href="https://github.com/davidvuong">
