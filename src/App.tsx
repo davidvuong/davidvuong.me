@@ -19,8 +19,8 @@ export const App = () => (
             <h1 className="mt-2 text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-tight md:text-5xl lg:mx-24">
               I'm David. It's nice to meet you.
             </h1>
-            <p className="mt-2 max-w-lg mx-auto text-medium text-gray-300 sm:text-lg md:mt-4 md:text-xl lg:max-w-3/4">
-              degen, defi, inventor, blockchain engineer.
+            <p className="mt-2 max-w-lg mx-auto text-medium text-gray-300 sm:text-lg md:mt-4 md:text-lg lg:max-w-3/4">
+              degen, defi investor, inventor, blockchain, software engineer.
             </p>
             <div className="mt-8 max-w-sm mx-auto flex space-x-6 items-center content-center justify-center">
               <a href="https://github.com/davidvuong">
