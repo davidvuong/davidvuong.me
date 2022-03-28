@@ -1,4 +1,4 @@
-import BannerVideo from './assets/videos/banner-motion-bg-3.mp4';
+import BannerVideo from './assets/videos/banner-motion-bg-4.mp4';
 import { GitHubSvgIcon } from './components/images/github-logo';
 import { LinkedInSvgIcon } from './components/images/linkedin-logo';
 import { TwitterSvgIcon } from './components/images/twitter-logo';
@@ -15,7 +15,7 @@ export const App = () => (
       <div className="relative flex flex-1 flex-col h-full">
         <main className="flex items-center h-full px-4">
           <div className="container mx-auto text-center flex-1">
-            <h2 className="text-base font-semibold tracking-wider text-blue-300 uppercase">Hey there 👋</h2>
+            <h2 className="text-base font-semibold tracking-wider text-slate-200 uppercase">Hey there 👋</h2>
             <h1 className="mt-2 text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-tight md:text-5xl lg:mx-24">
               I'm David. It's nice to meet you.
             </h1>
